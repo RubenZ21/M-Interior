@@ -60,7 +60,7 @@ export function renderSettings(root, { state, reload, tabbar }) {
         <h2>Start over</h2>
         <button type="button" class="btn-secondary danger" data-act="wipe">${icon('trash')} Delete all furniture, rooms and wishes</button>
       </section>
-      <p class="muted small center">Minja's Interior v${VERSION} · Background removal by IMG.LY (AGPL)</p>
+      <p class="muted small center">My Home v${VERSION} · Background removal by IMG.LY (AGPL)</p>
     </div>
     ${tabbar}`;
 
@@ -193,7 +193,7 @@ export function renderSettings(root, { state, reload, tabbar }) {
       return;
     }
     try {
-      await navigator.share({ files: [file], title: 'Interior backup' });
+      await navigator.share({ files: [file], title: 'My Home backup' });
       mark();
       toast(`Backup sent (${mb(file)})`);
     } catch (err) {

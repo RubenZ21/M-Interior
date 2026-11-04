@@ -1,6 +1,6 @@
 {
-  "name": "Minja's Interior",
-  "short_name": "Interior",
+  "name": "My Home",
+  "short_name": "My Home",
   "description": "Collect furniture and decor, and combine them into rooms.",
   "start_url": "./",
   "scope": "./",

@@ -13,7 +13,7 @@ function safeName(s) {
 
 export function backupFileName(date = new Date()) {
   const d = date.toISOString().slice(0, 10);
-  return `interior-backup-${d}.zip`;
+  return `my-home-backup-${d}.zip`;
 }
 
 /** Builds the backup zip as a File. */
@@ -47,7 +47,7 @@ export async function buildBackupZip(state) {
   const data = { app: 'interior', version: 1, appVersion: VERSION, exported: new Date().toISOString(), items, rooms, wishes };
   files['data.json'] = [strToU8(JSON.stringify(data, null, 1)), { level: 6 }];
   files['README.txt'] = [strToU8(
-    `Minja's Interior backup (app version ${VERSION}, ${new Date().toLocaleString()})\r\n\r\n`
+    `My Home backup (app version ${VERSION}, ${new Date().toLocaleString()})\r\n\r\n`
     + 'To restore: open the app, Settings > Restore from a backup, and choose this .zip file.\r\n'
     + 'The folders hold the pictures (furniture, rooms, room photos, wishlist); data.json holds the rest.\r\n'
   ), { level: 6 }];

@@ -18,4 +18,5 @@ Data lives on the phone in IndexedDB (`js/db.js`). `vendor/bg-removal.js` is a p
 
 This app is built on the same code as the wardrobe app (`RubenZ21/M-cothing`) and is served from
 the same site (`rubenz21.github.io`). Browsers share storage per site, so everything here uses its
-own names: IndexedDB `interior`, localStorage keys `interior.*`, caches `interior-*`. Keep it that way.
+own names (the app was first called Minja's Interior, and the
+internal names stay `interior` so saved data keeps working): IndexedDB `interior`, localStorage keys `interior.*`, caches `interior-*`. Keep it that way.

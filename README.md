@@ -1,7 +1,7 @@
-# Minja's Interior
+# My Home
 
 Collect furniture and decor, let the app cut them out, and combine them into rooms.
-It is a small web app that installs on a phone (PWA), the sister app of Minja's Wardrobe,
+It is a small web app that installs on a phone (PWA), the sister app of Minja's Wardrobe (formerly called Minja's Interior),
 with its own colours: warm linen, espresso and terracotta (with a touch of sage).
 
 **Open it:** https://rubenz21.github.io/M-Interior/ (after GitHub Pages is turned on, see below)
@@ -15,7 +15,7 @@ with its own colours: warm linen, espresso and terracotta (with a touch of sage)
 - **Rooms tab:** rooms grouped by type (Living room, Bedroom, Dining room, Kitchen, Bathroom, Office, Kids’ room, Hallway, Balcony & garden, Other). Rooms can be edited, renamed (tap the name at the top of the builder), duplicated and deleted. The share button sends a picture of the room with its name through the phone's share menu (WhatsApp, Messages, email …).
 - **Wishlist tab:** screenshots of things found online, each with a link to the shop, just like in the wardrobe app. *I bought it* moves a wish to the Furniture tab (keeping the shop link).
 - **Settings tab:** backup and restore, storage protection, background-removal quality, install help.
-- **Backup:** Settings → *Save backup on this phone* puts one `.zip` file in the phone's Downloads folder; *Send backup to…* opens the share menu for Google Drive, email etc. The zip holds the pictures as normal image files (`furniture/`, `rooms/`, `room-photos/`, `wishlist/`) plus `data.json` with everything else. The Settings tab shows a red dot when the last backup is more than 30 days old.
+- **Backup:** Settings → *Save backup on this phone* puts one `.zip` file (`my-home-backup-<date>.zip`) in the phone's Downloads folder; *Send backup to…* opens the share menu for Google Drive, email etc. The zip holds the pictures as normal image files (`furniture/`, `rooms/`, `room-photos/`, `wishlist/`) plus `data.json` with everything else. The Settings tab shows a red dot when the last backup is more than 30 days old.
 - **Version:** shown in small letters at the top of every screen. It goes up by 0.01 with every change (see `CLAUDE.md`).
 
 ## Photos and privacy

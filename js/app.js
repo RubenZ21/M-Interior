@@ -252,7 +252,7 @@ function renderItem(id) {
 }
 
 // ---------------- Wishlist helpers ----------------
-/** A page shared into the app (Android "Share" → Interior), parked by the service worker. */
+/** A page shared into the app (Android "Share" → My Home), parked by the service worker. */
 async function takeShared() {
   if (!('caches' in window)) return null;
   try {
