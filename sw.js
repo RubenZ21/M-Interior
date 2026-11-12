@@ -1,6 +1,6 @@
 // Offline support. Online, the app always loads the newest files; the cache is
 // only used when the network is unavailable. Bump CACHE with every release.
-const CACHE = 'interior-1.02'; // keep in step with js/version.js
+const CACHE = 'interior-1.03'; // keep in step with js/version.js
 const SHELL = [
   // './' is the app page. 'index.html' is deliberately not listed: Cloudflare answers it with a
   // redirect to './', and a redirected answer cannot be served for a page load.
